@@ -7,12 +7,13 @@
 
 Base [libpostal](https://github.com/openvenues/libpostal) Docker images built on Alpine Linux.
 
-Versions v1.0.0 and v1.1-alpha – built on [Alpine Linux](https://alpinelinux.org).
+Versions v1.0.0, v1.1-alpha, v1.1.0 – built on [Alpine Linux](https://alpinelinux.org).
 
 All versions use [sleekybadger/libpostal](https://hub.docker.com/r/sleekybadger/libpostal) repository,
 but each version aligns with the following tags:
 
-* `latest` `1.1-alpine` `1.1-alpha-alpine`
+* `latest` `1.1-alpine` `1.1.0-alpine`
+* `1.1-alpha-alpine`
 * `1.0-alpine` `1.0.0-alpine`
 
 ## Table of Contents
@@ -27,7 +28,7 @@ but each version aligns with the following tags:
 Using libpostal image to install [pypostal](https://github.com/openvenues/pypostal) package:
 
 ```Dockerfile
-FROM sleekybadger/libpostal:1.1-alpha-alpine as libpostal-build
+FROM sleekybadger/libpostal:1.1.0-alpine as libpostal-build
 
 FROM python:3.7.1-alpine
 

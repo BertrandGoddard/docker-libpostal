@@ -9,3 +9,4 @@ before_install:
 script:
   - docker run --rm --volume "$(pwd):/home/root" hadolint/hadolint < 1.0.0/alpine/Dockerfile
   - docker run --rm --volume "$(pwd):/home/root" hadolint/hadolint < 1.1-alpha/alpine/Dockerfile
+  - docker run --rm --volume "$(pwd):/home/root" hadolint/hadolint < 1.1.0/alpine/Dockerfile
