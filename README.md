@@ -15,6 +15,8 @@ but each version aligns with the following tags:
 * `latest` `1.1-alpine` `1.1.0-alpine`
 * `1.1-alpha-alpine`
 * `1.0-alpine` `1.0.0-alpine`
+* `1.1.0-alpine3.15`
+* `1.1.0-alpine3.15-go1.17`
 
 ## Table of Contents
 

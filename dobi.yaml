@@ -26,6 +26,20 @@ image=1.1-0:
     - 1.1-0-alpine
     - latest
 
+image=1.1.0-alpine3.15-go1.17:
+  context: .
+  dockerfile: 1.1.0-alpine3.15-go1.17/alpine/Dockerfile
+  image: '{project}'
+  tags:
+    - 1.1.0-alpine3.15-go1.17
+
+image=1.1.0-alpine3.15:
+  context: .
+  dockerfile: 1.1.0-alpine3.15/alpine/Dockerfile
+  image: '{project}'
+  tags:
+    - 1.1.0-alpine3.15
+
 alias=tag:
   tasks:
     - 1.0.0:tag

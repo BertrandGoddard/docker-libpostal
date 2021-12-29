@@ -10,3 +10,5 @@ script:
   - docker run --rm --volume "$(pwd):/home/root" hadolint/hadolint < 1.0.0/alpine/Dockerfile
   - docker run --rm --volume "$(pwd):/home/root" hadolint/hadolint < 1.1-alpha/alpine/Dockerfile
   - docker run --rm --volume "$(pwd):/home/root" hadolint/hadolint < 1.1.0/alpine/Dockerfile
+  - docker run --rm --volume "$(pwd):/home/root" hadolint/hadolint < 1.1.0-alpine3.15/alpine/Dockerfile
+  - docker run --rm --volume "$(pwd):/home/root" hadolint/hadolint < 1.1.0-alpine3.15-go1.17/alpine/Dockerfile
