@@ -4,7 +4,7 @@ LABEL version="1.1.0" \
       maintainer="sleekybadger@gmail.com"
 
 ENV LIBPOSTAL_VERSION="1.1" \
-    LIBPOSTAL_DOWNLOAD_URL="https://github.com/openvenues/libpostal/archive/v1.1.tar.gz" \
+    LIBPOSTAL_DOWNLOAD_URL="https://github.com/openvenues/libpostal/archive/refs/tags/v1.1.tar.gz" \
     LIBPOSTAL_DOWNLOAD_SHA="8cc473a05126895f183f2578ca234428d8b58ab6fadf550deaacd3bd0ae46032"
 
 RUN set -ex \
