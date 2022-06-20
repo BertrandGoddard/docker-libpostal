@@ -1,4 +1,4 @@
-FROM alpine:3.15
+FROM alpine:3.16
 
 LABEL version="1.1.0" \
       maintainer="bertrand@delicioussites.com"

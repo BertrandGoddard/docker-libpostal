@@ -40,6 +40,28 @@ image=1.1.0-alpine3.15:
   tags:
     - 1.1.0-alpine3.15
 
+image=1.1.0-alpine3.16:
+  context: .
+  dockerfile: 1.1.0-alpine3.16/alpine/Dockerfile
+  image: '{project}'
+  tags:
+    - 1.1.0-alpine3.16
+
+
+image=1.1.0-alpine3.16-go1.17:
+  context: .
+  dockerfile: 1.1.0-alpine3.16-go1.17/alpine/Dockerfile
+  image: '{project}'
+  tags:
+    - 1.1.0-alpine3.16-go1.17
+
+image=1.1.0-alpine3.16-go1.18:
+  context: .
+  dockerfile: 1.1.0-alpine3.16-go1.18/alpine/Dockerfile
+  image: '{project}'
+  tags:
+    - 1.1.0-alpine3.16-go1.18
+
 alias=tag:
   tasks:
     - 1.0.0:tag

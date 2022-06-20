@@ -1,7 +1,7 @@
 FROM golang:1.17-alpine3.15 AS build-env
 
 LABEL version="1.1.0" \
-      maintainer="sleekybadger@gmail.com"
+      maintainer="bertrand@delicioussites.com"
 
 ENV LIBPOSTAL_VERSION="1.1" \
     LIBPOSTAL_DOWNLOAD_URL="https://github.com/openvenues/libpostal/archive/refs/tags/v1.1.tar.gz" \

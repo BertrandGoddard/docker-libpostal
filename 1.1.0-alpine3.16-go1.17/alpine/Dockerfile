@@ -1,4 +1,4 @@
-FROM alpine:3.15
+FROM golang:1.17-alpine3.16 AS build-env
 
 LABEL version="1.1.0" \
       maintainer="bertrand@delicioussites.com"
